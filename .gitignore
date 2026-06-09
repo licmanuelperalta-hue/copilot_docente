@@ -1,0 +1,23 @@
+# Sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python
+venv/
+__pycache__/
+
+# Archivos sensibles
+.env
+
+# Builds
+dist/
+build/
+
+# Otros
+*.log
