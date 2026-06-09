@@ -3,6 +3,10 @@
 Thumbs.db
 .vscode/
 
+# Entorno
+.env.local
+.env*.local
+
 # Node
 node_modules/
 npm-debug.log
@@ -14,10 +18,13 @@ __pycache__/
 
 # Archivos sensibles
 .env
+*.pem
+*.key
 
 # Builds
 dist/
 build/
+.next/
 
 # Otros
 *.log
