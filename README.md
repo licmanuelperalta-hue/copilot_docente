@@ -1,27 +1,40 @@
 # copilot_docente
 
-Proyecto inicial para documentación y ejemplos del curso "Copilot Docente".
+Plataforma web inteligente para docentes — esqueleto inicial.
 
-Contenido:
+Objetivo:
+Crear una plataforma web donde la IA ayude a docentes a generar planeaciones didácticas completas.
+
+Contenido del repositorio:
 - `README.md`: este archivo.
 - `LICENSE`: licencia del proyecto.
 - `.gitignore`: archivos ignorados por Git.
+- `package.json`: dependencias y scripts.
+- `pages/`: páginas Next.js (dashboard y API stubs).
+- `components/`: componentes React compartidos.
+- `styles/`: estilos globales (Tailwind CSS).
 
-Instrucciones rápidas:
-
-1. Clonar:
+Instalación y ejecución (desarrollo):
 
 ```bash
 git clone https://github.com/licmanuelperalta-hue/copilot_docente.git
 cd copilot_docente
+npm install
+npm run dev
 ```
 
-2. Añadir archivos o ejemplos y hacer commit:
+Esto levantará la aplicación en `http://localhost:3000`.
 
-```bash
-git add .
-git commit -m "Agregar archivos iniciales"
-git push
-```
+Estructura inicial y siguientes pasos:
 
-Si necesitas que coloque un ejemplo específico (web, Node.js, ESP32/Arduino, etc.), dime cuál y lo agrego.
+- Frontend: Next.js + Tailwind CSS.
+- API: rutas API de Next.js (stubs para integrar OpenAI/Gemini).
+- Base de datos: se recomienda PostgreSQL (no incluido aún).
+- Autenticación: propuesta con Firebase Auth (no incluida aún).
+
+Si quieres, puedo:
+- Añadir integración con OpenAI (stubs ya creados).
+- Configurar PostgreSQL y ejemplos de modelos.
+- Implementar autenticación básica con Firebase.
+
+Dime cuál prefieres y lo configuro.
